@@ -88,3 +88,14 @@ doxygen.log
 
 # Backup files
 *.bak
+generated_cpp
+generator/.vs
+*.log
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.stash
+*.tmp
+generate.bat
+generator/release
