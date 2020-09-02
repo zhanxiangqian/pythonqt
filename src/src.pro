@@ -29,8 +29,9 @@ contains(QT_MAJOR_VERSION, 5) {
 }
 
 # Qt 5.4 adds this option, but this is not compatible with the Python API
-QMAKE_CXXFLAGS_RELEASE -= -Zc:strictStrings
- 
+#QMAKE_CXXFLAGS_RELEASE -= -Zc:strictStrings
+QMAKE_CXXFLAGS -= -Zc:strictStrings
+
 INCLUDEPATH += $$PWD
 
 include ( ../build/common.prf )  

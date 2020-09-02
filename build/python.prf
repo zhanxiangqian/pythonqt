@@ -4,8 +4,8 @@
 # Change this variable to your python version (2.6, 2.7, 3.3, ...)
 PYTHON_VERSION=$$(PYTHON_VERSION)
 isEmpty( PYTHON_VERSION ) {
-  win32:PYTHON_VERSION=27
-  unix:PYTHON_VERSION=2.7
+  win32:PYTHON_VERSION=38
+  unix:PYTHON_VERSION=38
 }
 
 
@@ -21,8 +21,8 @@ macx {
   # the directory where the python libs are located.
   #
   # When using the prebuild Python installer, this will be:
-  # set PYTHON_PATH = c:\Python26
-  # set PYTHON_LIB  = c:\Python26\libs
+  # set PYTHON_PATH = C:\Users\zhanxq\AppData\Local\Programs\Python\Python38
+  # set PYTHON_LIB  = C:\Users\zhanxq\AppData\Local\Programs\Python\Python38\libs
   #
   # When using the python sources, this will be something like:
   # set PYTHON_PATH = c:\yourDir\Python-2.6.1\
